@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Rick-Morty-wiki/static/css/main.498bff63.css",
+    "main.js": "/Rick-Morty-wiki/static/js/main.634dfbe8.js",
+    "static/js/787.ad444039.chunk.js": "/Rick-Morty-wiki/static/js/787.ad444039.chunk.js",
+    "index.html": "/Rick-Morty-wiki/index.html",
+    "main.498bff63.css.map": "/Rick-Morty-wiki/static/css/main.498bff63.css.map",
+    "main.634dfbe8.js.map": "/Rick-Morty-wiki/static/js/main.634dfbe8.js.map",
+    "787.ad444039.chunk.js.map": "/Rick-Morty-wiki/static/js/787.ad444039.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.498bff63.css",
+    "static/js/main.634dfbe8.js"
+  ]
+}
