@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Cards from "./components/Cards/Cards";
 import Filters from "./components/Filters/Filters";
@@ -14,7 +14,7 @@ import CardDetails from "./components/Cards/CardDetails";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Navbar />
       </div>
@@ -28,7 +28,7 @@ function App() {
         <Route path="/location" element={<Location />} />
         <Route path="/location/:id" element={<CardDetails />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
