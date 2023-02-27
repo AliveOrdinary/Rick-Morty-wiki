@@ -1,6 +1,9 @@
 .cards {
   border: 2px solid #0b5ed7;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .img {

@@ -12,7 +12,7 @@ const Cards = ({ results, page }) => {
           style={{ textDecoration: "none" }}
           to={`${page}${id}`}
           key={id}
-          className="col-4 position-relative mb-4 text-dark"
+          className="col-lg-4 col-md-6 col-12 position-relative mb-4 text-dark"
         >
           <div className="cards">
             <img src={image} alt="" className="img-fluid img" />

@@ -2,3 +2,13 @@ a {
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .next,
+  .prev {
+    display: none;
+  }
+  .pagination {
+    font-size: 14px;
+  }
+}

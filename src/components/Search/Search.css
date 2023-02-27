@@ -9,3 +9,9 @@
 .search-input :focus {
   outline: none;
 }
+
+@media (max-width: 576px) {
+  .search-input {
+    width: 80%;
+  }
+}
